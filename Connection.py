@@ -208,3 +208,10 @@ def get_association(headers, min_support=0.1):
         dict/JSON com regras de associação e métricas como suporte e confiança.
     """
     return requests.get(f"{BASE_URL}/api/v1/pca/association?min_support={min_support}", headers=headers).json()
+
+def get_dataset_completo(headers):
+    data = requests.get(f"{BASE_URL}/api/v1/features/dataset-completo", headers=headers).json()
+    return (
+        pd.DataFrame(data["dataset"]),
+        pd.DataFrame(data["dataset_tratado"])
+    )
