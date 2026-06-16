@@ -193,14 +193,10 @@ TrabalhoC3Analise/
 **Repositório dos Notebooks:** https://github.com/MatheusPas/NotebooksC3Analise
 ```
 NotebooksC3Analise/
-├── README.md
-├── notebooks/
-│   ├── 01_eda.ipynb                    (Matheus)
-│   ├── 02_feature_engineering.ipynb    (Matheus)
-│   ├── 03_regressao.ipynb              (Eduardo)
-│   ├── 04_classificacao.ipynb          (Gessiele)
-│   ├── 05_clusterizacao.ipynb          (João)
-│   ├── 06_dimensionalidade.ipynb       (Lucas)
-│   ├── 07_associacao_outlier.ipynb     (João)
-│   └── 08_storytelling_final.ipynb     (Todos)
+├── .gitignore
+├── Connection.py
+├── ParteMatheus.ipynb              (Matheus - EDA & Feature Engineering)
+├── ParteLucas.ipynb                (Lucas - Redução de Dimensionalidade / PCA)
+├── ParteEduardo.ipynb              (Eduardo - Regressão Linear Simples & Múltipla)
+└── README.md
 ```
