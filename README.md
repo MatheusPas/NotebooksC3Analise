@@ -1,3 +1,5 @@
+> **Este repositório é a aplicação do projeto [TrabalhoC3Analise](https://github.com/MatheusPas/TrabalhoC3Analise).** Aqui estão os notebooks Jupyter de cada etapa da análise e o dashboard em Streamlit (`streamlit_app.py`), que consome a API REST (FastAPI) do servidor. O README principal, com a descrição completa do projeto, está no repositório do servidor.
+
 # Divisão de Tarefas — Hackathon Data Analysis & ML
 **Projeto:** Analisando Dados de Preços de Casas nos Estados Unidos  
 **Professor:** Howard Roatti — FAESA Centro Universitário  
